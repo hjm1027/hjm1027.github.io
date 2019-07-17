@@ -3,11 +3,11 @@
   <title>胡嘉旻的博客</title>
   
   <subtitle>副标题</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/a/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://github.com/hjm1027/hjm1027.github.io/"/>
   <updated>2019-07-17T23:14:19.829Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://github.com/hjm1027/hjm1027.github.io/</id>
   
   <author>
     <name>hjm</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>a</title>
-    <link href="http://yoursite.com/2019/07/18/a/"/>
-    <id>http://yoursite.com/2019/07/18/a/</id>
+    <link href="https://github.com/hjm1027/hjm1027.github.io/2019/07/18/a/"/>
+    <id>https://github.com/hjm1027/hjm1027.github.io/2019/07/18/a/</id>
     <published>2019-07-17T23:07:57.000Z</published>
     <updated>2019-07-17T23:14:19.829Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>asd</title>
-    <link href="http://yoursite.com/2019/07/17/asd/"/>
-    <id>http://yoursite.com/2019/07/17/asd/</id>
+    <link href="https://github.com/hjm1027/hjm1027.github.io/2019/07/17/asd/"/>
+    <id>https://github.com/hjm1027/hjm1027.github.io/2019/07/17/asd/</id>
     <published>2019-07-17T04:07:44.000Z</published>
     <updated>2019-07-17T04:07:44.615Z</updated>
     
@@ -57,8 +57,8 @@
   
   <entry>
     <title>hello</title>
-    <link href="http://yoursite.com/2019/07/17/hello/"/>
-    <id>http://yoursite.com/2019/07/17/hello/</id>
+    <link href="https://github.com/hjm1027/hjm1027.github.io/2019/07/17/hello/"/>
+    <id>https://github.com/hjm1027/hjm1027.github.io/2019/07/17/hello/</id>
     <published>2019-07-17T03:50:38.000Z</published>
     <updated>2019-07-17T04:03:55.344Z</updated>
     
@@ -77,14 +77,14 @@
     </summary>
     
     
-      <category term="hello" scheme="http://yoursite.com/tags/hello/"/>
+      <category term="hello" scheme="https://github.com/hjm1027/hjm1027.github.io/tags/hello/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/07/16/hello-world/"/>
-    <id>http://yoursite.com/2019/07/16/hello-world/</id>
+    <link href="https://github.com/hjm1027/hjm1027.github.io/2019/07/16/hello-world/"/>
+    <id>https://github.com/hjm1027/hjm1027.github.io/2019/07/16/hello-world/</id>
     <published>2019-07-16T06:53:22.528Z</published>
     <updated>2019-07-16T06:53:22.528Z</updated>
     
