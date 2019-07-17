@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-17T23:07:57.338Z</updated>
+  <updated>2019-07-17T23:14:19.829Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,20 @@
     <link href="http://yoursite.com/2019/07/18/a/"/>
     <id>http://yoursite.com/2019/07/18/a/</id>
     <published>2019-07-17T23:07:57.000Z</published>
-    <updated>2019-07-17T23:07:57.338Z</updated>
+    <updated>2019-07-17T23:14:19.829Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎大家来到木犀星计划，这里是星计划第一阶段，安装linux虚拟机。</p><p>##为什么要用linux操作系统，</p><p>##安装过程：</p><p>###下载并安装虚拟机</p><p><img src="/home/hjm/ph/IMG_20190717_093928.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094615.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094645.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094722.jpg" alt></p><hr>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;欢迎大家来到木犀星计划，这里是星计划第一阶段，安装linux虚拟机。&lt;/p&gt;
+&lt;p&gt;##为什么要用linux操作系统，&lt;/p&gt;
+&lt;p&gt;##安装过程：&lt;/p&gt;
+&lt;p&gt;###下载并安装虚拟机&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/home/hjm/ph/IMG_20190717_
+      
     
     </summary>
     
