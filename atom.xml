@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>胡嘉旻的博客</title>
   
-  <subtitle>副标题</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yoursite.com/"/>
@@ -95,6 +95,31 @@
       
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>b</title>
+    <link href="https://yoursite.com/2019/07/16/b/"/>
+    <id>https://yoursite.com/2019/07/16/b/</id>
+    <published>2019-07-16T00:17:24.000Z</published>
+    <updated>2019-07-18T00:18:18.826Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎大家来到木犀星计划，这里是星计划第一阶段，安装linux虚拟机。</p><p>##为什么要用linux操作系统，</p><p>##安装过程：</p><p>###下载并安装虚拟机</p><p><img src="/home/hjm/ph/IMG_20190717_093928.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094615.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094645.jpg" alt></p><p><img src="/home/hjm/ph/IMG_20190717_094722.jpg" alt></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;欢迎大家来到木犀星计划，这里是星计划第一阶段，安装linux虚拟机。&lt;/p&gt;
+&lt;p&gt;##为什么要用linux操作系统，&lt;/p&gt;
+&lt;p&gt;##安装过程：&lt;/p&gt;
+&lt;p&gt;###下载并安装虚拟机&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/home/hjm/ph/IMG_20190717_
       
     
     </summary>
