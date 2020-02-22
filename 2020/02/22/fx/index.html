@@ -15,7 +15,7 @@
 <meta property="og:description" content="使用 hexo+github 搭建个人博客Hexo 简介及搭建Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 为什么要搭建自己的博客系统？原因有以下几个：1、自己搭建博客系统很有成就感，可以自己选定页面风格和页面排版； 2、自己搭建博客系统可以根据自己的需要添加各种插件功能，因此整体上比网上的第三方博客网站更好； 3">
 <meta property="og:locale" content="zh">
 <meta property="og:image" content="https://yoursite.com/images/og_image.png">
-<meta property="og:updated_time" content="2020-02-22T09:36:42.161Z">
+<meta property="og:updated_time" content="2020-02-22T10:34:03.362Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="fx">
 <meta name="twitter:description" content="使用 hexo+github 搭建个人博客Hexo 简介及搭建Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 为什么要搭建自己的博客系统？原因有以下几个：1、自己搭建博客系统很有成就感，可以自己选定页面风格和页面排版； 2、自己搭建博客系统可以根据自己的需要添加各种插件功能，因此整体上比网上的第三方博客网站更好； 3">
@@ -150,7 +150,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    4 minutes read (About 664 words)
+                    7 minutes read (About 1023 words)
                 </span>
                 
                 
@@ -203,9 +203,35 @@
 <p>部署到你的网站。</p>
 <p><strong>$ hexo server(简写：hexo d)</strong></p>
 <p>启动本地服务器。<br>默认情况下，这是在 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<p><img src="https://s2.ax1x.com/2020/02/22/3Qe0X9.png" alt></p>
 <p><strong>$ hexo clean</strong><br>清除缓存文件(db.json)和生成的文件(public)。<br>使用新主题或想重新生成静态文件时可使用</p>
 <p>**$ hexo version</p>
 <p>查看版本信息</p>
+<h2 id="将博客部署到github"><a href="#将博客部署到github" class="headerlink" title="将博客部署到github"></a>将博客部署到github</h2><h3 id="在github上创建仓库"><a href="#在github上创建仓库" class="headerlink" title="在github上创建仓库"></a>在github上创建仓库</h3><p>1.创建一个Repository，名称规则为：</p>
+<p><code>username.github.io</code></p>
+<p>2.编辑hexo/config.yml文件如下：</p>
+<p><code>deploy:
+  type: git
+  repository: https://github.com/name/name.github.io.git
+  branch: master</code><br>其中repository的地址就是你刚刚创建的仓库的https地址。</p>
+<h3 id="为github设置SSH-Keys"><a href="#为github设置SSH-Keys" class="headerlink" title="为github设置SSH Keys"></a>为github设置SSH Keys</h3><p>1.检查是否已经存在id_rsa.pub文件</p>
+<p><code>ls -al ~/.ssh</code></p>
+<p>2.不存在的话使其生成</p>
+<p><code>ssh-keygen -t rsa -C &quot;xxxxxx@xxx.com&quot;</code></p>
+<p>这里的邮箱就是我们github setting 里面的邮箱</p>
+<p>一路回车即可。</p>
+<p>3.复制id_rsa.pub文件内容，复制后，登陆github，进入Settings-&gt;SSH and GPG keys-&gt;New SSH key-&gt;粘贴</p>
+<p>4.测试是否添加成功，在刚刚的机器上输入</p>
+<p><code>ssh -T git@github.com</code></p>
+<h3 id="部署到github上"><a href="#部署到github上" class="headerlink" title="部署到github上"></a>部署到github上</h3><p>1.在hexo中分别进行生成，发布：<br><code>hexo g
+hexo d</code></p>
+<p>2.部署成功后，可通过 <a href="http://name.github.io" target="_blank" rel="noopener">http://name.github.io</a> 进行访问，其中将name替换为你自己的username即可</p>
+<h2 id="更新-hexo-主题"><a href="#更新-hexo-主题" class="headerlink" title="更新 hexo 主题"></a>更新 hexo 主题</h2><h3 id="获取NexT主题"><a href="#获取NexT主题" class="headerlink" title="获取NexT主题"></a>获取NexT主题</h3><p>git clone <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next</a> themes/next  # 新地址<br>git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a> themes/next  # 老地址</p>
+<h3 id="使用主题"><a href="#使用主题" class="headerlink" title="使用主题"></a>使用主题</h3><blockquote>
+<h1 id="hexo-clean-清楚缓存和静态文件目录"><a href="#hexo-clean-清楚缓存和静态文件目录" class="headerlink" title="hexo clean  # 清楚缓存和静态文件目录"></a>hexo clean  # 清楚缓存和静态文件目录</h1><h1 id="vim-config-yml-修改配置文件"><a href="#vim-config-yml-修改配置文件" class="headerlink" title="vim _config.yml  # 修改配置文件"></a>vim _config.yml  # 修改配置文件</h1><p>…………</p>
+<h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></h2><p>theme: next<br>…………</p>
+<h1 id="hexo-g-生成静态文件"><a href="#hexo-g-生成静态文件" class="headerlink" title="hexo g  # 生成静态文件"></a>hexo g  # 生成静态文件</h1><h1 id="hexo-s-预览效果"><a href="#hexo-s-预览效果" class="headerlink" title="hexo s  # 预览效果"></a>hexo s  # 预览效果</h1></blockquote>
+<p><img src="https://s2.ax1x.com/2020/02/22/3Qe6k6.png" alt></p>
 
         </div>
         
